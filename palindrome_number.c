@@ -16,6 +16,5 @@ int main() {
     else {
         printf("%d is not a palidrome number.\n", ori);
     }
-    printf("By Raman Raj\n");
     return 0;
 }

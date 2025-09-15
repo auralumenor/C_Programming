@@ -1,31 +1,18 @@
 #include <stdio.h>
-#include <math.h>
 int main() {
-    int num;
-    int orignal;
-    int remainder;
-    int n = 0;
-    printf("Enter a number: \n");
+    int num, orignal, sum = 0;
+    printf("Enter a three-digit number: \n");
     scanf("%d", &num);
     orignal = num;
-    orignal = num;
-    while (orignal != 0) {
-        orignal /= 10;
-        ++n;
+    while (num != 0) {
+        int digit = num % 10;
+        sum = sum + digit * digit * digit;
+        num = num / 10;
     }
-    orignal = num;
-    int result = 0;
-    while (orignal != 0) {
-        remainder = orignal % 10;
-        result += pow(remainder, n);
-        orignal /= 10;
-        ++n;
-    }
-    if (result == num) {
-        printf("%d is an Armstrong number.\n", num);
+    if (sum == orignal) {
+        printf("%d is an Armstrong number.\n", orignal);
     } else {
-        printf("%d is not an Armstrong number.\n", num);
+        printf("%d is not an Armstrong number.\n", orignal);
     }
-    printf("By Raman Raj\n");
     return 0;
 }

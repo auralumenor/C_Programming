@@ -1,12 +1,6 @@
 #include <stdio.h>
 int main() {
-    int a; 
-    int b;
-    int c;
-    int d;
-    int e;
-    int sum;
-    int avg;
+    int a, b, c, d, e, sum, avg;
     printf("Enter First Number: ");
     scanf("%d", &a);
     printf("Enter Second Number: ");
@@ -21,6 +15,5 @@ int main() {
     avg = sum / 5;
     printf("Sum = %d\n", sum);
     printf("Average = %d\n", avg);
-    printf("Made By Raman Raj\n");
     return 0;
 }

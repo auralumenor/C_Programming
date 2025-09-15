@@ -16,7 +16,5 @@ int main() {
     else {
         printf("%d is the largest number.\n", c);
     }
-    printf("Written by Raman raj\n");
-
     return 0;
 }

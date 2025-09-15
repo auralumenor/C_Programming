@@ -9,7 +9,6 @@ int main() {
     else{
         printf("input number is odd\n");
     }
-    printf("By Raman Raj\n");
     return 0;
 
 }
