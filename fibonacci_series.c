@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int n, next, t1 = 0, t2 = 0;
+    int n, next, t1 = 0, t2 = 1;
     printf("Enter the number of terms: \n");
     scanf("%d", &n);
     next = t1 + t2;
