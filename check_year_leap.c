@@ -9,7 +9,6 @@ int main() {
     else{
         printf("this isn't a leap year\n");
     }
-    printf("By Raman Raj\n");
     return 0;
 
 }
