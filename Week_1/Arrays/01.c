@@ -1,17 +1,13 @@
 #include <stdio.h>
-
-int main() {
-
-    int i,f,j,a[6];
-    for (i=0,f=1;i<6,f<7;i++,f++){
-        printf("Enter the %dth value: \n",f);
-        scanf("%d", &a[i]);
+int main(){
+    int sum=0,i,a[10];
+    for(i=0;i<10;i++){
+        printf("Enter the %d element: \n",i+1);
+        scanf("%d",&a[i]);
     }
-    
-    for (i=0,j=1;i<6,j<7;i++,j++){
-        printf("The sum of %dth and %dth element is %d\n",i,j, a[i]+a[j]);
+    for(i=0;i<10;i++){
+        sum=sum+a[i];
     }
-
-    printf("The sum of all elements is %d \n",a[0]+a[1]+a[2]+a[3]+a[4]+a[5]);
+    printf("the sum is %d\n",sum);
     return 0;
 }
