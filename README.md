@@ -2,6 +2,7 @@
 > A collection of C programs created during my 1st Semester coursework to practice and understand the fundamentals of programming in C.
 
 ![Language](https://img.shields.io/badge/language-C-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Purpose](https://img.shields.io/badge/purpose-educational-orange)
 ![Roadmap](https://img.shields.io/badge/roadmap-in_progress-yellow)
@@ -65,6 +66,14 @@ Planned additions to this repository include:
 - String manipulation programs (palindrome check, substring search)
 - File handling examples (read/write operations)
 - Data structures basics (linked list, stack, queue)
+---
+
+## 🔄 Learning Flow Diagram
+Here’s a simple roadmap of how the programs build your knowledge step by step:
+
+![C Programming Roadmap](assets/c_programming_roadmap.png)
+
+
 ---
 ## 🤝 Contributing
 If you’d like to add more programs or improve existing ones:
